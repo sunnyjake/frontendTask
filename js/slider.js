@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    if (document.documentElement.clientWidth < 768) {
+        document.getElementById("#right_arrow").style.display = "none";
+        document.getElementById("#left_arrow").style.display = "none";
+    }
     var currentPosition = 0;
    /* var slideWidth = window.screen.availWidth;*/
     var slideWidth = document.documentElement.clientWidth;
@@ -38,10 +42,6 @@ $(document).ready(function () {
         } else {
             $("#slideInner").animate({marginLeft: slideWidth * (-currentPosition)}, 1500);
             currentPosition++;
-        }
-        if (document.documentElement.clientWidth < 768) {
-            $("#right_arrow").hide();
-            $("#left_arrow").hide();
         }
     }
     function manageControls(position) {
