@@ -124,28 +124,23 @@ body{
 .navbar-default .navbar-nav > .logo > a > span{
     color:#4bcaff;
 }
-.navbar-default .navbar-nav > li > a:hover, 
-.navbar-default .navbar-nav > li > a:active,
-.navbar-default .navbar-nav > li > a:visited{
+.main .navbar-default .navbar-nav > li > a:hover, 
+.main .navbar-default .navbar-nav > li > a:active,
+.main .navbar-default .navbar-nav > li > a:visited{
     text-decoration: none;
     color:#fff;
     background-color: rgba(75, 202, 255, 0.9);
-    z-index: 10;
+    z-index: 15;
+}
+.main .navbar-default .navbar-nav > li > a{
+    color:#fff;
 }
 .navbar-default .navbar-nav .logo{
     margin-left:0;
     width: 100%;
     height:100px;
     z-index: 1;
-    /*visibility:hidden;*/
     opacity:0.8;
-    /*only with
-    .navbar-default .navbar-nav > li> #f:last-child{
-        margin-top:100px;
-    }
-    use
-    display:none;*/
-
 }
 .navbar-default .navbar-nav .logo > a{
     visibility:hidden;
@@ -164,7 +159,6 @@ body{
     width: 100%;
     height:100px;
     z-index: 1;
-    /*background-color: rgba(75, 202, 255, 0.9);*/
 }
 .navbar-default div.logo span{
     color:#4bcaff;
@@ -205,7 +199,6 @@ body{
     top: 30px;
 }
 .input{
-    /*float: left;*/
     margin: 0 auto;
     width:200px;
 }
