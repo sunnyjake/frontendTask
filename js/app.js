@@ -3,8 +3,7 @@ $(document).ready(function () {
     $.ajax({
         type: "GET",
         dataType: "json",
-        url: "http://cors.io/?u=http://dev.frevend.com/json/users.json",
-        /*url: "http://localhost:1337/dev.frevend.com/json/users.json",*/
+        url: "http://localhost:1337/dev.frevend.com/json/users.json",
         crossDomain: true
     }).done(function (data) {
         window.data = data;
