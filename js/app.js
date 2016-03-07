@@ -81,7 +81,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var $top = $(document).scrollTop();
         var comments = document.getElementById("comments");
-        if ($top > 600 && $top < 700) {
+        if ($top > 600 && $top <= 900) {
             if (comments.childNodes.length >= 10) {
                 return;
             }
