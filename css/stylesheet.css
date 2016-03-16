@@ -484,9 +484,9 @@ p.p_title{
         padding: 0;
         margin:0;
     }
-    .navbar-default .navbar-nav > li > a:hover, 
-    .navbar-default .navbar-nav > li > a:active,
-    .navbar-default .navbar-nav > li > a:visited{
+    .main .navbar-default .navbar-nav > li > a:hover, 
+    .main .navbar-default .navbar-nav > li > a:active,
+    .main .navbar-default .navbar-nav > li > a:visited{
         text-decoration: none;
         color:#fff;
         background-color: rgba(75, 202, 255, 0);
